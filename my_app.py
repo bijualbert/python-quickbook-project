@@ -2,7 +2,7 @@ from docx import Document
 import pyttsx3
 
 def speak(text):
-    pyttsx3.speak('text000')
+    pyttsx3.speak(text)
 
 document = Document()
 
